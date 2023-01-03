@@ -1,8 +1,29 @@
-body{
-  background-color:#101E2C;
+body {
+  background-color: #101E2C;
 }
-#header{
+
+#header {
   text-align: center;
   color: white;
 
+}
+
+ul.menu {
+  display: inline-block;
+  width: 20%;
+  padding: 10px 20px;
+  list-style: none;
+
+}
+
+.menu li {
+
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #7b7d80;
 }
