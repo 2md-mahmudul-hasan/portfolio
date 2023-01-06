@@ -1,9 +1,66 @@
-body {
-  background-color: #101E2C;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+  font-family: 'PT Serif', serif;
 }
 
+.d-btn {
+  background-color: rgb(1, 0, 11);
+  color: #fff;
+}
+
+/*  header  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px 15px;
+  background-color: rgb(9, 4, 56);
+  border-radius: 5px;
+
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+button.menu-btn {
+  background-color: rgba(1, 0, 11, 0.749);
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 45px;
+  color: #000000;
+}
+
+.text-colored {
+  color: #c3380e;
+}
+
+
+
 #header {
-  text-align: center;
+  /* text-align: center; */
   color: white;
 
 }
@@ -21,7 +78,6 @@ ul.menu {
 }
 
 .menu li {
-
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -36,4 +92,33 @@ ul.menu {
 
 .dmenu {
   display: inline;
+}
+
+/* banner */
+.banner-btn button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.banner-btn button i {
+  padding: 0px 5px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-position: right bottom, left bottom;
+  background-repeat: no-repeat;
+
+}
+
+.contents {
+  padding: 100px;
+}
+
+.contents p {
+  font-size: 18px;
+  text-align: justify;
 }
